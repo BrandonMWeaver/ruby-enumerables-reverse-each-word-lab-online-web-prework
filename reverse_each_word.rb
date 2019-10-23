@@ -16,16 +16,3 @@ def reverse_each_word(string)
   
   return reversed_string
 end
-
-def reverse_each_word(string)
-  temp = string.split(' ')
-  array = []
-  
-  temp.collect do |element|
-    
-  end
-  
-  reversed_string = ""
-  
-  return reversed_string
-end
