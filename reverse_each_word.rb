@@ -10,9 +10,9 @@ def reverse_each_word(string)
   
   index = 0
   while index < array.size do
-    
+    reversed_string += index == 0 ? array[index] : " #{array[index]}"
     index += 1
   end
   
-  return array
+  return reversed_string
 end
