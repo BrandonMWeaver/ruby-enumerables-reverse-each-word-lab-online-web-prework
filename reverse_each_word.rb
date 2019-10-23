@@ -6,5 +6,13 @@ def reverse_each_word(string)
     array << element.reverse
   end
   
+  reversed_string = ""
+  
+  index = 0
+  while index < array.size do
+    
+    index += 1
+  end
+  
   return array
 end
